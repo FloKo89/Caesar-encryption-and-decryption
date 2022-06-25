@@ -1,2 +1,2 @@
-# Caesar encryption and decryption
- Caesar encryption and decryption
+# Caesar en- & decrypt
+ Caesar encryption and decryption software
