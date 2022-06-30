@@ -45,8 +45,8 @@ class Gui(ttk.Frame):
         start_operation_button = ttk.Button(self, text="Operation ausführen", command=self.start_operation)
         start_operation_button.grid(column=0, row=5, columnspan=2, sticky="ew")
 
-        self.separator = ttk.Separator(self)
-        self.separator.grid(column=0, row=6, columnspan=4, sticky="ew", pady=5)
+        separator = ttk.Separator(self)
+        separator.grid(column=0, row=6, columnspan=4, sticky="ew", pady=5)
 
         result_label = ttk.Label(self, text="Ergebnis:", font=("Roboto", 15))
         result_label.grid(column=0, row=7, sticky="w")
